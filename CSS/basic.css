@@ -31,8 +31,23 @@ BODY {
 	margin: 0;
 	padding: 0;
 }
+
+.rtcol p {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:.9em;
+}
+
+.rtcol h4 {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:1.8em;
+}
+
+.rtcol h5{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;	
+}
+
 a {
-	color: #5096cf;
+	color: #065ca2;
 	text-decoration: underline !important;
 }
 a:hover {
@@ -287,7 +302,7 @@ ul.shadow-box li > div {
 	display: block;
 	text-transform: uppercase;
 	font-size: 0.8em;
-	color: #5096cf;
+	color: #065ca2;
 	text-indent: -1.5em;
 	padding-left: 1.5em;
 	text-align: left;
