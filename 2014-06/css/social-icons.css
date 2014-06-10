@@ -1,0 +1,583 @@
+.follow-us ul {
+	/*display: inline;*/
+}
+
+.social > * {
+	text-wrap: suppress;
+	white-space: nowrap;
+}
+li.social {
+	display: inline;
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-right: 3mm;
+	min-width: 10mm;
+	/*max-width: 10mm;*/
+	width: 10mm;
+	height: 10mm;
+	overflow: hidden;
+}
+li.social:before {
+	/*background-position: left 0px;*/
+	background-image: url('http://is.byu.edu/site/images/social_media-2.png');
+	background-repeat: no-repeat;
+	background-size: 10mm 1724.782608695652mm;
+	content: " ";
+	position: relative;
+	width: 11mm !important;
+	height: 11mm !important;
+	display: inline-block;
+}
+/*.header .follow-us li.facebook:before {
+	background-position: 0 -50px;
+}
+.header .follow-us li.twitter:before {
+	background-position: 0 -64px;
+}
+.header .follow-us li.google-plus:before {
+	background-position: 0 -112px;
+}
+.header .follow-us li.youtube:before {
+	background-position: 0 -32px;
+}
+.header .follow-us li.pinterest:before {
+	background-image: url('http://isdev.byu.edu/site/template/img/social-icons-pinterest.png');
+	background-position: 0 0px;
+}*/
+.header .follow-us li a {
+	/*text-decoration: none;*/
+	/*color: #5096cf;*/
+}
+.header .follow-us li:nth-child(odd) {
+	/*margin-right: 3px;*/
+}
+
+
+
+/* ** ** ** ** ** ** 
+*		10mm = 69px (physical size = image size)
+*		10/69 = 0.1449275362318841 = 1px
+*		height offset = original * 0.1449275362318841 mm
+** ** ** ** ** ** */
+
+.500px:before {
+	background-position: 0 -1030.724638mm, top;
+	/*	actual y (in px): 7112	*/
+	/*	based on 32px x  y (in px): 3298	*/
+}
+.about-me:before {
+	background-position: 0 -1016.376812mm, top;
+	/*	actual y (in px): 7013	*/
+	/*	based on 32px x  y (in px): 3252	*/
+}
+.add-this:before {
+	background-position: 0 -953.1884058mm, top;
+	/*	actual y (in px): 6577	*/
+	/*	based on 32px x  y (in px): 3050	*/
+}
+.amazon:before {
+	background-position: 0 -1464.782609mm, top;
+	/*	actual y (in px): 10107	*/
+	/*	based on 32px x  y (in px): 4687	*/
+}
+.aol-im:before {
+	background-position: 0 -1106.666667mm, top;
+	/*	actual y (in px): 7636	*/
+	/*	based on 32px x  y (in px): 3541	*/
+}
+.apple:before {
+	background-position: 0 -437.5362319mm, top;
+	/*	actual y (in px): 3019	*/
+	/*	based on 32px x  y (in px): 1400	*/
+}
+.apple-app-store:before {
+	background-position: 0 -1310.724638mm, top;
+	/*	actual y (in px): 9044	*/
+	/*	based on 32px x  y (in px): 4194	*/
+}
+.apple-developer:before {
+	background-position: 0 -1122.318841mm, top;
+	/*	actual y (in px): 7744	*/
+	/*	based on 32px x  y (in px): 3591	*/
+}
+.apple-itunes:before {
+	background-position: 0 -1653.188406mm, top;
+	/*	actual y (in px): 11407	*/
+	/*	based on 32px x  y (in px): 5290	*/
+}
+.apple-mobileme:before {
+	background-position: 0 -780.5797101mm, top;
+	/*	actual y (in px): 5386	*/
+	/*	based on 32px x  y (in px): 2498	*/
+}
+.apple-podcast:before {
+	background-position: 0 -563.3333333mm, top;
+	/*	actual y (in px): 3887	*/
+	/*	based on 32px x  y (in px): 1803	*/
+}
+.bebo:before {
+	background-position: 0 -141.1594203mm, top;
+	/*	actual y (in px): 974	*/
+	/*	based on 32px x  y (in px): 452	*/
+}
+.behance:before {
+	background-position: 0 -125.3623188mm, top;
+	/*	actual y (in px): 865	*/
+	/*	based on 32px x  y (in px): 401	*/
+}
+.blip:before {
+	background-position: 0 -641.7391304mm, top;
+	/*	actual y (in px): 4428	*/
+	/*	based on 32px x  y (in px): 2054	*/
+}
+.corofloat:before {
+	background-position: 0 -594.7826087mm, top;
+	/*	actual y (in px): 4104	*/
+	/*	based on 32px x  y (in px): 1903	*/
+}
+.daytum:before {
+	background-position: 0 -968.9855072mm, top;
+	/*	actual y (in px): 6686	*/
+	/*	based on 32px x  y (in px): 3101	*/
+}
+.delicious:before {
+	background-position: 0 -0mm, top;
+	/*	actual y (in px): 0	*/
+	/*	based on 32px x  y (in px): 0	*/
+}
+.designbump:before {
+	background-position: 0 -1169.42029mm, top;
+	/*	actual y (in px): 8069	*/
+	/*	based on 32px x  y (in px): 3742	*/
+}
+.designfloat:before {
+	background-position: 0 -484.7826087mm, top;
+	/*	actual y (in px): 3345	*/
+	/*	based on 32px x  y (in px): 1551	*/
+}
+.deviantart:before {
+	background-position: 0 -827.5362319mm, top;
+	/*	actual y (in px): 5710	*/
+	/*	based on 32px x  y (in px): 2648	*/
+}
+.digg:before {
+	background-position: 0 -717.826087mm, top;
+	/*	actual y (in px): 4953	*/
+	/*	based on 32px x  y (in px): 2297	*/
+}
+.dopplr:before {
+	background-position: 0 -1294.927536mm, top;
+	/*	actual y (in px): 8935	*/
+	/*	based on 32px x  y (in px): 4144	*/
+}
+.dribble:before {
+	background-position: 0 -251.0144928mm, top;
+	/*	actual y (in px): 1732	*/
+	/*	based on 32px x  y (in px): 803	*/
+}
+.drupal:before {
+	background-position: 0 -874.6376812mm, top;
+	/*	actual y (in px): 6035	*/
+	/*	based on 32px x  y (in px): 2799	*/
+}
+.ebay:before {
+	background-position: 0 -1543.188406mm, top;
+	/*	actual y (in px): 10648	*/
+	/*	based on 32px x  y (in px): 4938	*/
+}
+.ember:before {
+	background-position: 0 -937.6811594mm, top;
+	/*	actual y (in px): 6470	*/
+	/*	based on 32px x  y (in px): 3001	*/
+}
+.etsy:before {
+	background-position: 0 -1358.115942mm, top;
+	/*	actual y (in px): 9371	*/
+	/*	based on 32px x  y (in px): 4346	*/
+}
+.facebook:before {
+	background-position: 0 -1386.086957mm, top;
+	/*	actual y (in px): 9564	*/
+	/*	based on 32px x  y (in px): 4435	*/
+}
+.feed-burner:before {
+	background-position: 0 -172.4637681mm, top;
+	/*	actual y (in px): 1190	*/
+	/*	based on 32px x  y (in px): 552	*/
+}
+.flikr:before {
+	background-position: 0 -359.2753623mm, top;
+	/*	actual y (in px): 2479	*/
+	/*	based on 32px x  y (in px): 1150	*/
+}
+.food-spotting:before {
+	background-position: 0 -1684.492754mm, top;
+	/*	actual y (in px): 11623	*/
+	/*	based on 32px x  y (in px): 5390	*/
+}
+.forrst:before {
+	background-position: 0 -1637.391304mm, top;
+	/*	actual y (in px): 11298	*/
+	/*	based on 32px x  y (in px): 5240	*/
+}
+.foursquare:before {
+	background-position: 0 -235.3623188mm, top;
+	/*	actual y (in px): 1624	*/
+	/*	based on 32px x  y (in px): 753	*/
+}
+.friend-feed:before {
+	background-position: 0 -1075.217391mm, top;
+	/*	actual y (in px): 7419	*/
+	/*	based on 32px x  y (in px): 3441	*/
+}
+.friendster:before {
+	background-position: 0 -1511.884058mm, top;
+	/*	actual y (in px): 10432	*/
+	/*	based on 32px x  y (in px): 4838	*/
+}
+.gdgt:before {
+	background-position: 0 -1000.289855mm, top;
+	/*	actual y (in px): 6902	*/
+	/*	based on 32px x  y (in px): 3201	*/
+}
+.generic-blog:before {
+	background-position: 0 -203.7681159mm, top;
+	/*	actual y (in px): 1406	*/
+	/*	based on 32px x  y (in px): 652	*/
+}
+.generic-email:before {
+	background-position: 0 -1527.536232mm, top;
+	/*	actual y (in px): 10540	*/
+	/*	based on 32px x  y (in px): 4888	*/
+}
+.generic-heart:before {
+	background-position: 0 -1574.637681mm, top;
+	/*	actual y (in px): 10865	*/
+	/*	based on 32px x  y (in px): 5039	*/
+}
+.github:before {
+	background-position: 0 -610.4347826mm, top;
+	/*	actual y (in px): 4212	*/
+	/*	based on 32px x  y (in px): 1953	*/
+}
+.google-apps:before {
+	background-position: 0 -1090.869565mm, top;
+	/*	actual y (in px): 7527	*/
+	/*	based on 32px x  y (in px): 3491	*/
+}
+.google-blogger:before {
+	background-position: 0 -1153.768116mm, top;
+	/*	actual y (in px): 7961	*/
+	/*	based on 32px x  y (in px): 3692	*/
+}
+.google-buzz:before {
+	background-position: 0 -156.8115942mm, top;
+	/*	actual y (in px): 1082	*/
+	/*	based on 32px x  y (in px): 502	*/
+}
+.google-picasa:before {
+	background-position: 0 -516.0869565mm, top;
+	/*	actual y (in px): 3561	*/
+	/*	based on 32px x  y (in px): 1651	*/
+}
+.google-plus-dark:before {
+	background-position: 0 -314.057971mm, top;
+	/*	actual y (in px): 2167	*/
+	/*	based on 32px x  y (in px): 1005	*/
+}
+.google-plus-light:before {
+	background-position: 0 -673.3333333mm, top;
+	/*	actual y (in px): 4646	*/
+	/*	based on 32px x  y (in px): 2155	*/
+}
+.google-talk:before {
+	background-position: 0 -1433.333333mm, top;
+	/*	actual y (in px): 9890	*/
+	/*	based on 32px x  y (in px): 4587	*/
+}
+.google-youtube:before {
+	background-position: 0 -1417.681159mm, top;
+	/*	actual y (in px): 9782	*/
+	/*	based on 32px x  y (in px): 4537	*/
+}
+.gowalla 1:before {
+	background-position: 0 -1216.521739mm, top;
+	/*	actual y (in px): 8394	*/
+	/*	based on 32px x  y (in px): 3893	*/
+}
+.gowalla 2:before {
+	background-position: 0 -1342.173913mm, top;
+	/*	actual y (in px): 9261	*/
+	/*	based on 32px x  y (in px): 4295	*/
+}
+.grooveshark:before {
+	background-position: 0 -687.9710145mm, top;
+	/*	actual y (in px): 4747	*/
+	/*	based on 32px x  y (in px): 2202	*/
+}
+.hyves:before {
+	background-position: 0 -1279.275362mm, top;
+	/*	actual y (in px): 8827	*/
+	/*	based on 32px x  y (in px): 4094	*/
+}
+.icon-dock:before {
+	background-position: 0 -1605.942029mm, top;
+	/*	actual y (in px): 11081	*/
+	/*	based on 32px x  y (in px): 5139	*/
+}
+.icq:before {
+	background-position: 0 -1558.84058mm, top;
+	/*	actual y (in px): 10756	*/
+	/*	based on 32px x  y (in px): 4988	*/
+}
+.identi.ca:before {
+	background-position: 0 -1621.73913mm, top;
+	/*	actual y (in px): 11190	*/
+	/*	based on 32px x  y (in px): 5190	*/
+}
+.imessage:before {
+	background-position: 0 -343.4782609mm, top;
+	/*	actual y (in px): 2370	*/
+	/*	based on 32px x  y (in px): 1099	*/
+}
+.instagram:before {
+	background-position: 0 -328.6956522mm, top;
+	/*	actual y (in px): 2268	*/
+	/*	based on 32px x  y (in px): 1052	*/
+}
+.last.fm:before {
+	background-position: 0 -94.20289855mm, top;
+	/*	actual y (in px): 650	*/
+	/*	based on 32px x  y (in px): 301	*/
+}
+.linkedin:before {
+	background-position: 0 -46.95652174mm, top;
+	/*	actual y (in px): 324	*/
+	/*	based on 32px x  y (in px): 150	*/
+}
+.meetup:before {
+	background-position: 0 -1200.869565mm, top;
+	/*	actual y (in px): 8286	*/
+	/*	based on 32px x  y (in px): 3843	*/
+}
+.meta-café:before {
+	background-position: 0 -188.2608696mm, top;
+	/*	actual y (in px): 1299	*/
+	/*	based on 32px x  y (in px): 602	*/
+}
+.microsoft-bing:before {
+	background-position: 0 -858.9855072mm, top;
+	/*	actual y (in px): 5927	*/
+	/*	based on 32px x  y (in px): 2749	*/
+}
+.microsoft-network:before {
+	background-position: 0 -78.4057971mm, top;
+	/*	actual y (in px): 541	*/
+	/*	based on 32px x  y (in px): 251	*/
+}
+.microsoft-windows:before {
+	background-position: 0 -1448.985507mm, top;
+	/*	actual y (in px): 9998	*/
+	/*	based on 32px x  y (in px): 4637	*/
+}
+.mister-wong:before {
+	background-position: 0 -453.3333333mm, top;
+	/*	actual y (in px): 3128	*/
+	/*	based on 32px x  y (in px): 1451	*/
+}
+.mixx:before {
+	background-position: 0 -1401.884058mm, top;
+	/*	actual y (in px): 9673	*/
+	/*	based on 32px x  y (in px): 4486	*/
+}
+.myspace:before {
+	background-position: 0 -15.50724638mm, top;
+	/*	actual y (in px): 107	*/
+	/*	based on 32px x  y (in px): 50	*/
+}
+.netvibes:before {
+	background-position: 0 -764.7826087mm, top;
+	/*	actual y (in px): 5277	*/
+	/*	based on 32px x  y (in px): 2447	*/
+}
+.newsvine:before {
+	background-position: 0 -406.3768116mm, top;
+	/*	actual y (in px): 2804	*/
+	/*	based on 32px x  y (in px): 1300	*/
+}
+.paypal:before {
+	background-position: 0 -1232.318841mm, top;
+	/*	actual y (in px): 8503	*/
+	/*	based on 32px x  y (in px): 3943	*/
+}
+.photobucket:before {
+	background-position: 0 -626.0869565mm, top;
+	/*	actual y (in px): 4320	*/
+	/*	based on 32px x  y (in px): 2003	*/
+}
+.pinterest:before {
+	background-position: 0 -1372.608696mm, top;
+	/*	actual y (in px): 9471	*/
+	/*	based on 32px x  y (in px): 4392	*/
+}
+.posterus:before {
+	background-position: 0 -1496.086957mm, top;
+	/*	actual y (in px): 10323	*/
+	/*	based on 32px x  y (in px): 4787	*/
+}
+.qik:before {
+	background-position: 0 -796.2318841mm, top;
+	/*	actual y (in px): 5494	*/
+	/*	based on 32px x  y (in px): 2548	*/
+}
+.quora:before {
+	background-position: 0 -1700.434783mm, top;
+	/*	actual y (in px): 11733	*/
+	/*	based on 32px x  y (in px): 5441	*/
+}
+.reddit:before {
+	background-position: 0 -733.4782609mm, top;
+	/*	actual y (in px): 5061	*/
+	/*	based on 32px x  y (in px): 2347	*/
+}
+.retweet:before {
+	background-position: 0 -1043.768116mm, top;
+	/*	actual y (in px): 7202	*/
+	/*	based on 32px x  y (in px): 3340	*/
+}
+.rss:before {
+	background-position: 0 -1185.072464mm, top;
+	/*	actual y (in px): 8177	*/
+	/*	based on 32px x  y (in px): 3792	*/
+}
+.scribd:before {
+	background-position: 0 -266.6666667mm, top;
+	/*	actual y (in px): 1840	*/
+	/*	based on 32px x  y (in px): 853	*/
+}
+.share-this:before {
+	background-position: 0 -843.3333333mm, top;
+	/*	actual y (in px): 5819	*/
+	/*	based on 32px x  y (in px): 2699	*/
+}
+.skype:before {
+	background-position: 0 -31.30434783mm, top;
+	/*	actual y (in px): 216	*/
+	/*	based on 32px x  y (in px): 100	*/
+}
+.slashdot:before {
+	background-position: 0 -1059.565217mm, top;
+	/*	actual y (in px): 7311	*/
+	/*	based on 32px x  y (in px): 3391	*/
+}
+.slideshare:before {
+	background-position: 0 -749.1304348mm, top;
+	/*	actual y (in px): 5169	*/
+	/*	based on 32px x  y (in px): 2397	*/
+}
+.smugmug:before {
+	background-position: 0 -1326.521739mm, top;
+	/*	actual y (in px): 9153	*/
+	/*	based on 32px x  y (in px): 4245	*/
+}
+.soundcloud:before {
+	background-position: 0 -984.7826087mm, top;
+	/*	actual y (in px): 6795	*/
+	/*	based on 32px x  y (in px): 3151	*/
+}
+.spotify:before {
+	background-position: 0 -298.2608696mm, top;
+	/*	actual y (in px): 2058	*/
+	/*	based on 32px x  y (in px): 954	*/
+}
+.squidoo:before {
+	background-position: 0 -500.4347826mm, top;
+	/*	actual y (in px): 3453	*/
+	/*	based on 32px x  y (in px): 1601	*/
+}
+.stack-overflow:before {
+	background-position: 0 -1715.072464mm, top;
+	/*	actual y (in px): 11834	*/
+	/*	based on 32px x  y (in px): 5488	*/
+}
+.stumble-upon:before {
+	background-position: 0 -374.9275362mm, top;
+	/*	actual y (in px): 2587	*/
+	/*	based on 32px x  y (in px): 1200	*/
+}
+.technorati:before {
+	background-position: 0 -390.5797101mm, top;
+	/*	actual y (in px): 2695	*/
+	/*	based on 32px x  y (in px): 1250	*/
+}
+.tumblr:before {
+	background-position: 0 -469.1304348mm, top;
+	/*	actual y (in px): 3237	*/
+	/*	based on 32px x  y (in px): 1501	*/
+}
+.twitter-bird:before {
+	background-position: 0 -657.3913043mm, top;
+	/*	actual y (in px): 4536	*/
+	/*	based on 32px x  y (in px): 2104	*/
+}
+.twitter-t:before {
+	background-position: 0 -702.0289855mm, top;
+	/*	actual y (in px): 4844	*/
+	/*	based on 32px x  y (in px): 2246	*/
+}
+.viddler:before {
+	background-position: 0 -1480.434783mm, top;
+	/*	actual y (in px): 10215	*/
+	/*	based on 32px x  y (in px): 4737	*/
+}
+.vimeo:before {
+	background-position: 0 -1137.971014mm, top;
+	/*	actual y (in px): 7852	*/
+	/*	based on 32px x  y (in px): 3642	*/
+}
+.virb:before {
+	background-position: 0 -109.7101449mm, top;
+	/*	actual y (in px): 757	*/
+	/*	based on 32px x  y (in px): 351	*/
+}
+.w3:before {
+	background-position: 0 -282.4637681mm, top;
+	/*	actual y (in px): 1949	*/
+	/*	based on 32px x  y (in px): 904	*/
+}
+.wikipedia:before {
+	background-position: 0 -1668.695652mm, top;
+	/*	actual y (in px): 11514	*/
+	/*	based on 32px x  y (in px): 5340	*/
+}
+.wordpress-black:before {
+	background-position: 0 -812.0289855mm, top;
+	/*	actual y (in px): 5603	*/
+	/*	based on 32px x  y (in px): 2598	*/
+}
+.wordpress-blue:before {
+	background-position: 0 -531.884058mm, top;
+	/*	actual y (in px): 3670	*/
+	/*	based on 32px x  y (in px): 1702	*/
+}
+.xing:before {
+	background-position: 0 -890.4347826mm, top;
+	/*	actual y (in px): 6144	*/
+	/*	based on 32px x  y (in px): 2849	*/
+}
+.yahoo:before {
+	background-position: 0 -62.75362319mm, top;
+	/*	actual y (in px): 433	*/
+	/*	based on 32px x  y (in px): 201	*/
+}
+.yahoo-buzz:before {
+	background-position: 0 -421.884058mm, top;
+	/*	actual y (in px): 2911	*/
+	/*	based on 32px x  y (in px): 1350	*/
+}
+.yelp:before {
+	background-position: 0 -547.6811594mm, top;
+	/*	actual y (in px): 3779	*/
+	/*	based on 32px x  y (in px): 1753	*/
+}
